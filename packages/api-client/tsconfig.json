@@ -1,8 +1,8 @@
 {
-  "extends": "../../tsconfig",
+  "extends": "@repo/typescript-config/nextjs.json",
   "compilerOptions": {
     "outDir": "./lib",
-    "module": "commonjs",
+    "module": "preserve",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "declaration": true,
